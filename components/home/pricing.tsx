@@ -92,11 +92,11 @@ export default function Pricing() {
         <div>
           <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
             <h2 className="font-bold text-2xl sm:text-3xl md:text-6xl leading-[1.1]">
-              Subscription Plans
+              订阅套餐
             </h2>
             <p className="max-w-[95%] sm:max-w-[85%] text-sm sm:text-lg leading-normal text-muted-foreground">
-              Start building for free and scale up as you grow. All plans
-              include the core features you need to get started.
+              选择适合您的创作套餐，享受无限AI爽文生成服务。
+              所有套餐都包含核心创作功能，助您释放创意潜能。
             </p>
           </div>
           <div className="grid lg:grid-cols-3 gap-6 sm:gap-8 mt-8 md:mt-12">
@@ -158,11 +158,11 @@ export default function Pricing() {
         <div>
           <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
             <h2 className="font-bold text-2xl sm:text-3xl md:text-6xl leading-[1.1]">
-              Credit Packages
+              积分套餐
             </h2>
             <p className="max-w-[95%] sm:max-w-[85%] text-sm sm:text-lg leading-normal text-muted-foreground">
-              Purchase credits to use our services on-demand. Perfect for
-              occasional use and testing.
+              按需购买创作积分，灵活使用AI生成服务。
+              适合偶尔创作和体验功能的用户。
             </p>
           </div>
           <div className="grid lg:grid-cols-3 gap-6 sm:gap-8 mt-8 md:mt-12">

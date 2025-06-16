@@ -1,280 +1,255 @@
-# Raphael Starter Kit
+# AI爽文工坊 🚀
 
-这是一个面向编程小白的现代化启动套件，基于 Next.js、Supabase 和 Creem.io 构建。专为帮助开发者快速搭建支持全球用户登录和支付的网站，特别对中国大陆开发者友好。
+基于DeepSeek AI的智能爽文生成平台，释放无限创意想象力！
+
+![AI爽文工坊](https://img.shields.io/badge/AI%E7%88%BD%E6%96%87%E5%B7%A5%E5%9D%8A-v1.0.0-blue)
+![DeepSeek AI](https://img.shields.io/badge/DeepSeek-AI%20Powered-green)
+![Next.js](https://img.shields.io/badge/Next.js-15-black)
 
 ## 🌟 简介
 
-这是一个基于 Next.js、Supabase 和 Creem.io 构建的现代化、生产就绪的启动套件。非常适合快速构建具有身份验证、订阅和积分系统的 SaaS 应用程序，让您的 MVP 开发速度提升10倍。
+**AI爽文工坊**是一个革命性的智能创作平台，基于强大的DeepSeek AI模型，专为爽文创作者和娱乐爱好者打造。只需输入简单的角色名称和故事题目，AI即可在几秒钟内为您生成精彩纷呈的爽文内容。
 
-## 核心特色功能
+### 🎯 产品定位
 
-- 💯 **精美的用户界面**
-  - 经过精心设计的现代化界面
-  - 优雅的响应式设计，在各种设备上呈现完美体验
-  - 平滑的动画和过渡效果
-  - 精心优化的布局和组件排列
-  - 专业的色彩方案和排版
+- 🤖 **AI驱动**: 基于DeepSeek先进AI模型，理解爽文创作规律
+- ⚡ **极速生成**: 10秒生成千字高质量爽文内容
+- 🎨 **多元题材**: 支持重生逆袭、霸道总裁、都市修仙等热门题材
+- 📱 **全平台适配**: 完美支持手机、平板、桌面端使用
 
-- 🚀 **Next.js App Router**
-  - 使用最新的 Next.js 功能
-  - 服务器组件和客户端组件的最佳组合
-  - 内置的路由保护
-  - 快速的页面加载和导航体验
+## 🎪 核心功能
 
-- 🔐 **全面的身份验证系统**
-  - 基于 Supabase
-  - 电子邮件/密码认证
-  - OAuth 提供商支持 (Google, GitHub等)
-  - 安全的会话管理
-  - 使用中间件保护路由
-  
-- 💳 **完整的支付与订阅系统**
-  - 与 Creem.io 完美集成，支持全球信用卡收款 
-  - 特别适合中国大陆用户作为商家使用
-  - 多级订阅方案
-  - 灵活的积分系统
-  - 详细的使用量跟踪
+### 📖 重生之老板是我小秘
 
-- 🛠️ **开发者友好**
-  - TypeScript 类型安全
-  - 清晰的项目结构
-  - 完善的文档
-  - Cursor编辑器友好框架
+我们的明星功能！输入老板姓名和爽文题目，AI为您量身定制专属的重生爽文故事：
 
-## 📱 响应式设计
+- **智能角色设定**: AI根据输入自动构建丰富的角色背景
+- **情节自动生成**: 符合爽文套路的精彩情节发展
+- **风格一致性**: 保持爽文特有的节奏感和阅读快感
+- **个性化内容**: 每次生成都是独一无二的原创内容
 
-Raphael Starter Kit 采用了全面的响应式设计，确保您的应用在任何设备上都能完美呈现：
+### 🎨 创作特色
 
-- 手机端优化的导航和布局
-- 平板电脑友好的交互设计
-- 桌面端的高效工作流
-- 精确的组件间距和对齐
+- 💯 **高质量输出**
+  - DeepSeek AI模型加持，中文创作能力卓越
+  - 理解爽文特有的情节套路和节奏感
+  - 自动优化语言表达，确保流畅度
+  - 符合读者期待的剧情发展
 
-## 🎨 UI 组件库
+- 🚀 **极速体验**
+  - 平均生成时间：10-30秒
+  - 一键生成800-1200字完整内容
+  - 实时显示生成进度
+  - 支持批量创作需求
 
-我们的启动套件包含了丰富的预构建组件，帮助您快速组装精美的界面：
+- 🎯 **多样化题材**
+  - 重生逆袭：回到过去改变命运
+  - 霸道总裁：商界精英的浪漫故事
+  - 都市修仙：现代都市中的修炼之路
+  - 末世求生：危机中的生存与成长
+  - 穿越古代：跨越时空的奇妙冒险
+  - 系统流：游戏化人生的精彩演绎
 
-- 现代化的导航栏和页脚
-- 引人注目的英雄区域
-- 特色功能展示组件
-- 专业的徽标云展示
-- 灵活的FAQ手风琴组件
-- 精美的定价卡片
-- 引人注目的行动号召按钮
-- 引导用户的清晰路径
+## 🛠️ 技术架构
 
-## 快速开始
+### 前端技术栈
+- **Next.js 15**: 现代化全栈框架
+- **TypeScript**: 类型安全的开发体验
+- **Tailwind CSS**: 响应式UI设计
+- **Shadcn/UI**: 优雅的组件库
+- **Lucide React**: 精美的图标系统
 
-### 前提条件
+### 后端技术栈
+- **Supabase**: 用户认证和数据存储
+- **DeepSeek API**: AI内容生成
+- **Creem.io**: 支付和订阅管理
+- **API Routes**: 服务端逻辑处理
 
-- Node.js 18+ 和 npm
-- Supabase 账户
+### 核心特性
+- 🔐 **安全认证**: 完整的用户登录注册系统
+- 💳 **支付集成**: 支持订阅和积分购买
+- 📊 **使用统计**: 详细的创作历史记录
+- 🌙 **主题切换**: 深色/浅色模式支持
+- 📱 **响应式设计**: 完美适配各种设备
+
+## 🚀 快速开始
+
+### 环境要求
+
+- Node.js 18+
+- npm 或 yarn
+- DeepSeek API Key
+- Supabase 项目
 - Creem.io 账户
 
-### 步骤 1: 克隆仓库
+### 安装步骤
 
-```bash
-git clone https://github.com/yourusername/raphael-starter-kit.git
-cd raphael-starter-kit
-```
+1. **克隆项目**
+   ```bash
+   git clone https://github.com/yourusername/ai-novel-workshop.git
+   cd ai-novel-workshop
+   ```
 
-### 步骤 2: 安装依赖
+2. **安装依赖**
+   ```bash
+   npm install
+   ```
 
-```bash
-npm i
-```
-
-### 步骤 3: 设置 Supabase
-
-1. 在 [Supabase](https://app.supabase.com) 上创建一个新项目
-   - 点击"新建项目"
-   - 填写基本信息（项目名称、密码等）
-
-2. 前往 项目设置 > API 获取项目凭证
-   - 从项目设置页面复制凭证信息
-   - 将凭证粘贴到.env文件中
-
-3. 配置登录认证
-   - 选择【Auth】>【Providers】
-   - 选择email认证
-   - 关闭"Confirm email"选项并保存设置
-
-4. (可选) 设置Google登录
-   - 进入[Google 开发者控制台](https://console.cloud.google.com)，创建新项目
-   - 配置项目权限
-   - 前往【API与服务】>【凭据】
-   - 创建OAuth客户端ID
-   - 添加授权来源URL和重定向URI
-   - 重定向URI格式: `https://<项目ID>.supabase.co/auth/v1/callback`
-   - 复制OAuth客户端ID和密钥
-
-5. 在Supabase配置Google认证
-   - 打开Auth > Providers > Google
-   - 填写从Google开发者控制台获取的客户端ID和密钥
-   - 启用Google认证
-
-6. 设置定向URL
-   - 将定向URL更改为您的线上地址
-   - 确保URL与Google开发者控制台中的地址完全一致
-
-7. 设置环境变量
+3. **环境配置**
    ```bash
    cp .env.example .env.local
    ```
    
-   在`.env.local`中更新Supabase变量:
-   ```
-   NEXT_PUBLIC_SUPABASE_URL=你的项目URL
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=你的匿名密钥
-   SUPABASE_SERVICE_ROLE_KEY=你的服务角色密钥
-   ```
-
-8. 创建数据库表结构
-   - 复制SQL代码到Supabase SQL编辑器
-   - 执行SQL创建必要的表结构
-
-### 步骤 4: 设置 Creem.io
-
-1. 登录到 [Creem.io 仪表板](https://www.creem.io/)
-2. 初始设置
-   - 打开测试模式
-   - 导航到顶部导航栏中的"开发者"部分
-   - 复制API Key并粘贴到.env文件中
-
-3. 创建Webhooks
-   - 前往开发者 > Webhooks
-   - 创建新的Webhook
-   - 填写URL: `https://你的域名/api/webhooks/creem`
-   - 复制Webhook密钥并粘贴到.env文件中
-
-4. 更新环境变量
-   ```
-   CREEM_API_URL=https://test-api.creem.io/v1
-   ```
-
-5. 创建收费项目
-   - 在Creem.io中创建订阅项目和积分项目
-   - 复制项目ID并配置到代码中
-
-6. 完整的环境变量示例
-   ```
-   # Supabase配置
-   NEXT_PUBLIC_SUPABASE_URL=你的supabaseURL
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=你的supabase pubilc key
-   SUPABASE_SERVICE_ROLE_KEY=你的supabase SERVICE_ROLE key
-
-   # Creem配置
-   CREEM_WEBHOOK_SECRET=你的webhook key
-   CREEM_API_KEY=你的creem key
-   CREEM_API_URL=https://test-api.creem.io/v1
-
-   # 站点URL配置
-   NEXT_PUBLIC_SITE_URL=http://你的线上地址
+   配置必要的环境变量：
+   ```env
+   # DeepSeek AI 配置
+   DEEPSEEK_API_KEY=your_deepseek_api_key
    
-   # 支付成功后的重定向URL
-   CREEM_SUCCESS_URL=http://你的线上地址/dashboard
-   ```
-
-### 步骤 5: 运行开发服务器
-
-```bash
-npm run dev
-```
-
-访问 [http://localhost:3000](http://localhost:3000) 查看你的应用程序。
-
-### 步骤 6: Vercel部署
-
-1. 将代码推送到GitHub
-2. 将仓库导入到[Vercel](https://vercel.com)
-3. 添加所有环境变量
-4. 完成部署
-
-### 步骤 7: 更新Webhook回调地址
-
-1. 进入Creem.io，打开开发者模式
-2. 更新Webhooks配置
-   - 进入对应的Webhook设置
-   - 点击"更多"，选择"编辑"
-   - 将线上地址更新为: `https://你的域名/api/webhooks/creem`
-
-### 步骤 8: 测试系统功能
-
-1. 测试用户登录功能
-2. 测试订阅支付功能（测试信用卡号: 4242 4242 4242 4242）
-3. 测试积分购买功能
-
-### 步骤 9: 设计网站首页
-
-1. 使用组件库
-   - 您可以使用[TailwindCSS](https://tailwindcss.com)上的组件
-   - 复制代码到相应的组件文件中
-
-2. 自定义页面配色
-   - 调整全局色系
-   - 将样式代码添加到全局CSS文件中
-
-3. 根据需要精修页面布局
-
-### 步骤 10: 切换到正式付款
-
-1. 进入Creem.io，关闭测试模式
-2. 创建新的正式项目，将ID更新到代码中
-3. 更新环境变量，将API URL从测试环境切换到正式环境:
-   ```
-   # 将此行
-   CREEM_API_URL=https://test-api.creem.io/v1
+   # Supabase 配置
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+   SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
    
-   # 替换为
-   CREEM_API_URL=https://api.creem.io
+   # Creem 支付配置
+   CREEM_API_KEY=your_creem_api_key
+   CREEM_API_URL=https://api.creem.io/v1
+   CREEM_WEBHOOK_SECRET=your_webhook_secret
+   
+   # 站点配置
+   NEXT_PUBLIC_SITE_URL=http://localhost:3000
+   CREEM_SUCCESS_URL=http://localhost:3000/dashboard
    ```
 
-## 💳 订阅系统详情
+4. **数据库设置**
+   - 在Supabase中执行数据库迁移文件
+   - 设置必要的表结构和权限
 
-启动套件包含由 Creem.io 提供支持的完整订阅系统：
-
-- 多级订阅方案
-- 基于使用量的计费
-- 积分系统
-- 订阅管理
-- 安全支付处理
-- Webhook 集成实时更新
-- 自动发票生成
-- 全球支付支持（特别适合中国大陆商家）
-
-### 设置 Webhooks
-
-处理订阅更新和支付事件:
-
-1. 前往 Creem.io 仪表板
-2. 导航到 开发者 > Webhooks
-3. 添加你的 webhook 端点: `https://your-domain.com/api/webhooks/creem`
-4. 复制 webhook 密钥并添加到你的 `.env.local`:
-   ```
-   CREEM_WEBHOOK_SECRET=你的webhook密钥
+5. **启动开发服务器**
+   ```bash
+   npm run dev
    ```
 
-## 项目结构
+6. **访问应用**
+   打开浏览器访问 `http://localhost:3000`
 
-```
-├── app/                   # Next.js 应用目录
-│   ├── (auth-pages)/     # 身份验证页面
-│   ├── dashboard/        # 仪表板页面
-│   ├── api/             # API 路由
-│   └── layout.tsx       # 根布局
-├── components/           # React 组件
-│   ├── ui/             # Shadcn/ui 组件
-│   ├── dashboard/      # 仪表板组件
-│   └── home/          # 登陆页面组件
-│   └── layout/        # 页面布局组件
-├── hooks/               # 自定义 React 钩子
-├── lib/                # 工具库
-├── public/             # 静态资源
-├── styles/             # 全局样式
-├── types/              # TypeScript 类型
-└── utils/              # 工具函数
-```
+## 💰 商业模式
 
-## 支持与联系
+### 订阅套餐
+- **免费体验**: 每月免费生成5篇
+- **创作者版**: 无限生成，优先处理
+- **专业版**: 高级功能，定制选项
 
-如果您有任何问题或需要支持，请通过微信联系我们。
+### 积分系统
+- **按需购买**: 灵活的积分包选择
+- **高性价比**: 适合偶尔使用的用户
+- **永不过期**: 购买的积分持久有效
+
+## 🎨 使用指南
+
+### 基础使用
+
+1. **注册登录**
+   - 访问主页，点击"开始创作"
+   - 使用邮箱或Google账号快速注册
+   - 完成邮箱验证（如需要）
+
+2. **开始创作**
+   - 在主页找到"重生之老板是我小秘"功能区
+   - 输入老板姓名（例如：李总、王经理）
+   - 输入故事题目（例如：职场逆袭、商界风云）
+   - 点击"生成爽文"按钮
+
+3. **查看结果**
+   - AI将在10-30秒内完成生成
+   - 生成的内容会显示在下方文本框中
+   - 支持复制、保存或继续编辑
+
+### 高级技巧
+
+- **角色命名**: 使用具体的职位和姓名效果更佳
+- **题材选择**: 结合当前热门话题增加吸引力
+- **多次尝试**: 同样的输入可能产生不同的精彩内容
+- **内容完善**: 可在AI生成基础上进行个性化修改
+
+## 🔧 部署指南
+
+### Vercel 部署（推荐）
+
+1. **准备工作**
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
+
+2. **Vercel 配置**
+   - 访问 [Vercel](https://vercel.com)
+   - 导入 GitHub 仓库
+   - 配置环境变量
+   - 点击部署
+
+3. **域名设置**
+   - 更新 `NEXT_PUBLIC_SITE_URL`
+   - 配置 Creem webhook URL
+   - 更新 Supabase 回调地址
+
+### 其他部署选项
+
+- **Docker**: 提供 Dockerfile 配置
+- **传统服务器**: 支持 PM2 部署
+- **云平台**: 兼容 AWS、阿里云等
+
+## 📈 功能规划
+
+### 即将推出
+
+- 🔥 **更多题材**: 玄幻、仙侠、科幻等
+- 📚 **长篇创作**: 支持章节式连载小说
+- 🎭 **角色管理**: 保存和复用角色设定
+- 📖 **模板系统**: 预设情节模板选择
+- 🔄 **内容优化**: AI辅助内容修改和润色
+
+### 长期愿景
+
+- 🌍 **多语言支持**: 英文、日文等语言版本
+- 🤝 **协作创作**: 多人协同创作功能
+- 📱 **移动应用**: 原生 App 版本
+- 🎵 **多媒体**: 配音、配图等功能
+- 📊 **数据分析**: 创作数据洞察
+
+## 🤝 贡献指南
+
+我们欢迎社区贡献！参与方式：
+
+1. **反馈建议**: 提交 Issue 分享您的想法
+2. **代码贡献**: Fork 项目并提交 Pull Request
+3. **文档完善**: 帮助改进文档和教程
+4. **测试反馈**: 报告 Bug 和使用体验
+
+### 开发规范
+
+- 遵循 TypeScript 严格模式
+- 使用 ESLint 和 Prettier 代码格式化
+- 编写必要的单元测试
+- 遵循 Git 提交信息规范
+
+## 📞 联系我们
+
+- 📧 **邮箱**: support@ai-novel-workshop.com
+- 💬 **微信群**: 扫码加入创作者交流群
+- 🐛 **Bug 反馈**: GitHub Issues
+- 💡 **功能建议**: GitHub Discussions
+
+## 📄 许可证
+
+MIT License - 查看 [LICENSE](LICENSE) 文件了解详情
+
+---
+
+<div align="center">
+
+**🎉 开始您的AI创作之旅吧！**
+
+[立即体验](https://ai-novel-workshop.com) | [查看文档](https://docs.ai-novel-workshop.com) | [加入社区](https://discord.gg/ai-novel)
+
+</div>

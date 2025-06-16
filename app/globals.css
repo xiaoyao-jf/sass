@@ -57,5 +57,6 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }

@@ -2,6 +2,7 @@
 
 import { Coins } from "lucide-react";
 import { CreditTransaction } from "@/types/creem";
+import { formatConsistentDate } from "@/lib/utils";
 
 type CreditsBalanceCardProps = {
   credits: number;
@@ -40,7 +41,7 @@ export function CreditsBalanceCard({
                 {history.amount}
               </span>
               <span className="text-muted-foreground">
-                {new Date(history.created_at).toLocaleDateString()}
+                {formatConsistentDate(history.created_at)}
               </span>
             </div>
           ))}

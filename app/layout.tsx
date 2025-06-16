@@ -1,6 +1,5 @@
 import Header from "@/components/header";
 import { Footer } from "@/components/footer";
-import { Geist } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import { createClient } from "@/utils/supabase/server";
 import { Toaster } from "@/components/ui/toaster";
@@ -12,14 +11,9 @@ const baseUrl = process.env.BASE_URL
 
 export const metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Raphael Starter Kit",
-  description: "The fastest way to build apps with global authentication and payments",
+  title: "AI爽文创作平台 - 释放无限创意想象",
+  description: "基于DeepSeek AI的智能爽文生成平台，只需几个关键词即可创作精彩爽文。支持重生逆袭、霸道总裁等多种题材，让AI为您打造专属的爽文世界。",
 };
-
-const geistSans = Geist({
-  display: "swap",
-  subsets: ["latin"],
-});
 
 export default async function RootLayout({
   children,
@@ -32,8 +26,11 @@ export default async function RootLayout({
   } = await supabase.auth.getUser();
 
   return (
-    <html lang="en" className={geistSans.className} suppressHydrationWarning>
-      <body className="bg-background text-foreground">
+    <html lang="zh-CN" suppressHydrationWarning>
+      <head>
+        <meta charSet="utf-8" />
+      </head>
+      <body className="bg-background text-foreground font-sans">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
