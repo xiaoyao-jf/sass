@@ -114,7 +114,8 @@ export async function getUserSubscription(userId: string) {
     `
     )
     .eq("customer.user_id", userId)
-    .eq("status", "active")
+    .order("created_at", { ascending: false })
+    .limit(1)
     .single();
 
   if (error && error.code !== "PGRST116") {

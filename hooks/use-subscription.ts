@@ -83,7 +83,14 @@ export function useSubscription() {
         .eq("user_id", user.id)
         .single();
 
-      const sub = customerData?.subscriptions?.[0];
+      if (!customerData?.subscriptions || customerData.subscriptions.length === 0) {
+        setLoading(false);
+        return;
+      }
+
+      // Get the most recent subscription
+      const sub = customerData.subscriptions
+        .sort((a: any, b: any) => new Date(b.current_period_end).getTime() - new Date(a.current_period_end).getTime())[0];
       if (!sub) {
         setLoading(false);
         return;

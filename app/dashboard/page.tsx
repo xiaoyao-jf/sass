@@ -24,7 +24,8 @@ export default async function DashboardPage() {
       subscriptions (
         status,
         current_period_end,
-        creem_product_id
+        creem_product_id,
+        created_at
       ),
       credits_history (
         amount,
@@ -36,7 +37,12 @@ export default async function DashboardPage() {
     .eq("user_id", user.id)
     .single();
 
-  const subscription = customerData?.subscriptions?.[0];
+  // Get the most recent subscription
+  const subscription = customerData?.subscriptions?.length > 0 
+    ? customerData.subscriptions.sort((a: any, b: any) => 
+        new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
+      )[0]
+    : null;
   const credits = customerData?.credits || 0;
   const recentCreditsHistory = customerData?.credits_history?.slice(0, 2) || [];
 

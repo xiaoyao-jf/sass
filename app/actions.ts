@@ -171,9 +171,10 @@ export async function createCheckoutSession(
     });
 
     if (!response.ok) {
-      throw new Error("Failed to create checkout session");
+      const errorText = await response.text(); // 👈 获取 creem 返回的真实错误信息
+      console.error("❌ Creem 返回错误信息：", errorText); // 👈 打印错误详情
+      throw new Error("Failed to create checkout session: " + errorText); // 👈 加进 error 报错
     }
-
     const data = await response.json();
     return data.checkout_url;
   } catch (error) {
